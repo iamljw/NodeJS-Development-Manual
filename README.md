@@ -1,6 +1,7 @@
 # NodeJS-Development-Manual
 NodeJS 开发手册
-![NodeJS](https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png)
+<!-- ![NodeJS](https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png) -->
+![NodeJS](https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399__340.png)
 ## 目录
 - 应用&插件&框架
 - 开发&测试&部署
