@@ -27,7 +27,7 @@ pathname部分组成：/module_name/api/version/p
 ```js
 // 成功请求
 {
-    "code": 200, // 状态码
+    "code": 0, // 状态码
     "success": true, // 请求成功/失败标识
     "data": {}, // 实际返回的数据
     "extra": {} // 附加数据，可选
