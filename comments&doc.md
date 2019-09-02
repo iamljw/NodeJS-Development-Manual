@@ -79,7 +79,7 @@
         const apiV1 = router.namespace('/api/v1');
         router.get('/', controller.home.index);
         // ------------ 用户的冻结资产 ------------
-        apiV1.get('/frozenAsset', controller.handler.freezeAsset);
+        apiV1.get('/frozenAsset', controller.handler.frozenAsset);
         // ------------ 上传说明书 ------------
         apiV1.post('/upload/instructions', controller.handler.uploadInstructions);
         // ------------ 最新认购播报 ------------
