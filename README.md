@@ -9,12 +9,12 @@ NodeJS 开发手册
 ## 目录
 - 应用&插件&框架
 - 开发&测试&部署
-- 注释&文档
-- [接口风格](./interface_style.md)
+- [注释&文档](comments&doc.md)
+- [接口风格](interface_style.md)
 - 代码风格
-- [命名规则](./naming_rules.md)
-- [状态码](./status_code.md)
-- [进程间通讯 RPC](./rpc.md)
+- [命名规则](naming_rules.md)
+- [状态码](status_code.md)
+- [进程间通讯 RPC](rpc.md)
 - 第三方服务
 - 集群管理
 - 其他
