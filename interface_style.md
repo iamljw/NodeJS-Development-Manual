@@ -40,3 +40,5 @@ pathname部分组成：/module_name/api/version/p
 }
 ```
 [查看状态码大全](./status_code.md)
+## 其他(Other)
+数字币的金额数量统一采用大数字符串格式，包括请求和响应数据。
