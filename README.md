@@ -11,7 +11,7 @@ NodeJS 开发手册
 - 开发&测试&部署
 - [注释&文档](comments&doc.md)
 - [接口风格](interface_style.md)
-- 代码风格
+- [代码风格](coding_style.md)
 - [命名规则](naming_rules.md)
 - [状态码](status_code.md)
 - [进程间通讯 RPC](rpc.md)
