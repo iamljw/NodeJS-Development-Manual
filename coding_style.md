@@ -13,6 +13,32 @@
 ```
 ## 严格模式（强制）
 在js文件开头必须声明使用严格模式 `'use strict';`
+## 处理失败请求（强制）
+采用异常抛出的方式，配合 [egg-error-handler](https://github.com/iamljw/egg-error-handler) 使用
+
+```js
+// app/service/demo.js
+'use strict';
+
+const { ParameterError } = require('tic-lib').clientError;
+const { BaseService } = require('tic-lib').context;
+
+class DemoService extends BaseService {
+    // ...
+    async show(id) {
+        if (!id) {
+            throw new ParameterError();
+        }
+    }
+}
+
+// 客户端响应数据如下
+{
+    code: 1001,
+    success: false,
+    message: '参数错误'
+}
+```
 ## 对象|数组 换行（推荐）
 对象属性字段字符数超过 20 需换行，示例：
 ```js

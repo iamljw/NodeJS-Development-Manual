@@ -25,6 +25,23 @@
     - 数据对象：xxxDO，xxx为表名。例：`productDO`
     - 数据传输对象：xxxDTO，xxx为业务领域相关名称。例：`productListDTO`
     - 展示对象：xxxVO，xxx为界面/网页名称。例：`indexVO`
+14. Controller、Service、Schedule 类命名，以文件名开头，UpperCamelCase风格：
+    ```js
+    // ${baseDir}app/controller/demo.js
+    class DemoController extends BaseController {
+        // ...
+    }
+
+    // ${baseDir}app/service/demo.js
+    class DemoService extends BaseService {
+        // ...
+    }
+
+    // ${baseDir}app/schedule/daily.js
+    class DailySub extends Subscription {
+        // ...
+    }
+    ```
 ## 数据库
 1. 数据库名与模块名一致。
 2. 表名字母小写，单词以下划线分割。
