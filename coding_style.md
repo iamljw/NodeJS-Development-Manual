@@ -79,6 +79,7 @@ class HomeController extends BaseController {
     // ...
 }
 ```
+该内容已经集成到 [泰链 NodeJS 开发者库](https://github.com/iamljw/tic-lib) 中。
 ## 任务调度(强制)
 文件名固定格式写法：
 - second.js: 每秒钟执行
