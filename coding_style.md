@@ -6,6 +6,7 @@
     "extends": "eslint-config-egg",
     "rules": {
         "indent": ["error", 4, { "SwitchCase": 1 }],
+        "comma-dangle": ["error", "never"],
         "array-bracket-spacing":["error", "never"],
     }
 }
@@ -106,6 +107,7 @@ module.exports = {
         BTC: 2,
         USDT: 3
     },
+    // 积分操作类型
     integralOperateType: {
         RECHARGE: 'recharge', // 充币
         // ...
