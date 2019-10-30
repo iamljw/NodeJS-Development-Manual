@@ -22,6 +22,8 @@ TIC微服务架构V2.0
 - egg-tic-guard： 鉴权（TODO）
 - egg-tic-monitor：监控器（TODO）
 - [egg-consul-plus](https://github.com/iamljw/egg-consul-plus)： consul客户端
+- [egg-sequelize](https://github.com/eggjs/egg-sequelize)： sequelize数据库插件
+- [egg-redis](https://github.com/eggjs/egg-redis)： redis插件
 - [egg-validate](https://github.com/eggjs/egg-validate)： 参数校验
 - [egg-router-plus](https://github.com/eggjs/egg-router-plus)： 路由
 - [egg-cors](https://github.com/eggjs/egg-cors)： 跨域插件
