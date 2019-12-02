@@ -15,6 +15,7 @@ NodeJS 开发手册
 - [命名规则](naming_rules.md)
 - [状态码](status_code.md)
 - [进程间通讯 RPC](rpc.md)
+- [模块](modules.md)
 - 第三方服务
 - 集群管理
 - 其他
